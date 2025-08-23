@@ -2,6 +2,9 @@
   "name": "nextjs-app",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=20.19.4"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -28,5 +31,8 @@
     "eslint-config-next": "15.5.0",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "optionalDependencies": {
+    "usb": "^2.16.0"
   }
 }
