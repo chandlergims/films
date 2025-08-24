@@ -10,6 +10,19 @@ export default function Home() {
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
             Create professional films using Grok Imagine AI technology
           </p>
+          <div className="mt-6">
+            <p className="text-sm text-gray-500">
+              Project by{' '}
+              <a 
+                href="https://x.com/theobuilding" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800 transition-colors"
+              >
+                @theobuilding
+              </a>
+            </p>
+          </div>
         </div>
 
         {/* Platform Strategy */}
@@ -183,6 +196,21 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </div>
+
+        {/* Footer Attribution */}
+        <div className="text-center mt-16 pt-8 border-t border-gray-200">
+          <p className="text-sm text-gray-500">
+            Project by{' '}
+            <a 
+              href="https://x.com/theobuilding" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:text-blue-800 transition-colors"
+            >
+              @theobuilding
+            </a>
+          </p>
         </div>
       </main>
     </div>
